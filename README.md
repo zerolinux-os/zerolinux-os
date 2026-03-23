@@ -1,122 +1,190 @@
-
-```
-███████╗███████╗██████╗  ██████╗ ██╗     ██╗███╗   ██╗██╗   ██╗██╗  ██╗
-╚══███╔╝██╔════╝██╔══██╗██╔═══██╗██║     ██║████╗  ██║██║   ██║╚██╗██╔╝
-  ███╔╝ █████╗  ██████╔╝██║   ██║██║     ██║██╔██╗ ██║██║   ██║ ╚███╔╝ 
- ███╔╝  ██╔══╝  ██╔══██╗██║   ██║██║     ██║██║╚██╗██║██║   ██║ ██╔██╗ 
-███████╗███████╗██║  ██║╚██████╔╝███████╗██║██║ ╚████║╚██████╔╝██╔╝ ██╗
-╚══════╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝       
-```
-
 <div align="center">
-  <h1>🐧 Welcome to ZeroLinux OS 🐧</h1>
-  <p><em>A custom Linux distribution crafted with passion</em></p>
+
+<!-- Animated Header Banner -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=zerolinux&fontSize=80&fontColor=00d4ff&animation=fadeIn&fontAlignY=38&desc=Building%20from%20zero%20%7C%20Arch-based%20ISO%20in%20progress&descAlignY=60&descColor=7fdbff" />
+
+</div>
+
+<div align="left">
+
+```javascript
+                                                                                                    
+  // The essential Human blueprint                                                                   
+  class Human {                                                                                      
+    constructor() {                                                                                  
+      this.species = "Homo Sapiens";                                                                 
+      this.skills = ["breathing", "eating", "sleeping"];      //                    __            _  
+    }                                                         //                 | /  \ |      _\(_)/_  @ZeroLinux
+  }                                                           //                \_\\  //______/ /(o)\             
+                                                              //                 .'/()\'.____/`- /'     \         
+  // A Developer is just a Human with extra features          //          Zero    \\`.//\ _ /` \ \\  ,,  /  /    
+  class Developer extends Human {                             //       _\(o)/_    /  /`.,' `.,' '-.`\()/`.-'     
+    constructor() {                                           //        /(_)\    /__/__/ DevLife--_'(_ )'_--.     
+      super();                                                //              .  _.._  \     // /` /`""`\ `\ \    
+      this.name = "ZeroLinux";                                //  @ZeroLinux   '    '.'`._,'  |  |  ><  |  |     
+      this.mood = "🐧";                                       //              /   __   \/___\,'\ /\      /  /    
+      this.os   = "Arch Linux (btw)";                         //           ,  |   ><   |__,__\,-'  '.__.'  linux 
+      this.mission = "Building Arch-based ISO from scratch";  //          . \  \      /  / .  \         _\(o)/_  
+      this.skills.push("coding", "system design");            //           \_'--`(  )'--'_/       _      /(_)\   
+      this.skills.push("linux ricing", "pacman -Syu");        //             .--'/()\'--.      _\( )/_           
+    }                                                         //            /  /` d' `\  \      /(O)\            
+    greet() {                                                 //          _          @ZeroLinux                  
+      return `Hi! I'm ${this.name}...${this.mood}`;           //       _\(_)/_ \      /                          
+    }                                                         //        /(O)\                      @ZeroLinux    
+  }                                                                                                               
+                                                                                                    
+  // Say hello!                                                                                      
+  console.log(new Developer().greet());                                                              
+  // Output: Hi! I'm ZeroLinux...🐧                                                                  
+```
+
 </div>
 
 ---
 
-## 👋 Hi there, I'm the creator of ZeroLinux!
+<div align="center">
 
-Welcome to my GitHub profile! Here you'll discover ZeroLinux - my custom Linux distribution, along with various projects, experiments, and contributions to the open-source community.
+## 🐧 About Me
 
----
+</div>
 
-## 🚀 About Me & ZeroLinux
+```bash
+$ whoami
+zerolinux
 
-- 💻 **Focus:** Linux Distribution Development & System Administration
-- 🛠️ **Core Skills:** Linux Kernel, System Programming, Shell Scripting, Package Management
-- 🐧 **Main Project:** ZeroLinux - A lightweight, secure, and user-friendly Linux distribution
-- 🌱 **Currently Learning:** Advanced kernel development, containerization technologies
-- 👯 **Looking to collaborate on:** Linux distributions, system utilities, open-source projects
-- 🤔 **Ask me about:** Linux customization, distribution building, system optimization
+$ cat about.txt
+╔═══════════════════════════════════════════════════════════════╗
+║  🔧 Developer | Tool Builder | Linux Enthusiast               ║
+║  🐧 Arch Linux devotee — currently crafting my own ISO        ║
+║  🛠️  Passionate about building useful developer tools         ║
+║  ⚡ Low-level tinkerer, high-level thinker                    ║
+║  🌐 Open source contributor & system architect                ║
+╚═══════════════════════════════════════════════════════════════╝
 
----
-
-## 🎯 ZeroLinux Distribution Features
-
-- ⚡ **Lightweight:** Optimized for performance and minimal resource usage
-- 🔒 **Secure:** Built with security-first approach
-- 🎨 **Customizable:** Highly configurable desktop environment
-- 📦 **Package Management:** Efficient package management system
-- 🌐 **Community-Driven:** Open for contributions and feedback
+$ uname -a
+ZeroLinux 0.1.0-dev Arch-based #1 SMP PREEMPT_DYNAMIC x86_64 GNU/Linux
+```
 
 ---
 
-## 📌 Featured Projects
+<div align="center">
 
-| Project Name | Description | Tech Stack |
-|--------------|-------------|------------|
-| [ZeroLinux Core](#) | Main distribution repository with kernel and base system | C, Shell, Python |
-| [ZeroLinux Installer](#) | User-friendly installation system | Python, GTK |
-| [ZeroLinux Package Manager](#) | Custom package management solution | C++, SQLite |
-| [ZeroLinux Desktop](#) | Custom desktop environment and themes | C, CSS, JavaScript |
+## 🚀 Current Mission
+
+</div>
+
+<div align="center">
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                                   ║
+║  ███████╗███████╗██████╗  ██████╗ ██╗     ██╗███╗   ██╗██╗   ██╗██╗  ██╗                          ║
+║  ╚══███╔╝██╔════╝██╔══██╗██╔═══██╗██║     ██║████╗  ██║██║   ██║╚██╗██╔╝                          ║
+║    ███╔╝ █████╗  ██████╔╝██║   ██║██║     ██║██╔██╗ ██║██║   ██║ ╚███╔╝                           ║
+║   ███╔╝  ██╔══╝  ██╔══██╗██║   ██║██║     ██║██║╚██╗██║██║   ██║ ██╔██╗                           ║
+║  ███████╗███████╗██║  ██║╚██████╔╝███████╗██║██║ ╚████║╚██████╔╝██╔╝ ██╗                          ║
+║  ╚══════╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝                          ║
+║                                                                                                   ║
+║                       🐧  An Arch-based Linux Distribution  🐧                                    ║
+║                       Building from zero, one package at a time                                   ║
+║                                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+| Feature | Status |
+|--------|--------|
+| 🏗️ Base System (Arch) | `🔄 In Progress` |
+| 📦 Custom Package Selection | `🔄 In Progress` |
+| 🎨 Custom Desktop Environment Config | `📋 Planned` |
+| 🛠️ Developer Tools Bundle | `📋 Planned` |
+| 📀 ISO Build Script | `📋 Planned` |
+| 📚 Documentation | `📋 Planned` |
 
 ---
+
+<div align="center">
+
+## 🛠️ Tech Stack & Tools
+
+</div>
+
+<div align="center">
+
+<!-- Languages -->
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+
+<!-- Linux & Tools -->
+![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+</div>
+
+---
+
+<div align="center">
 
 ## 📊 GitHub Stats
 
+</div>
+
 <div align="center">
-  
-![ZeroLinux GitHub Stats](https://github-readme-stats.vercel.app/api?username=zerolinux-os&show_icons=true&theme=radical&count_private=true)
+  <img src="https://nazdridoy-github-readme-streak-stats.vercel.app/?user=zerolinux-os&locale=en&mode=daily&theme=tokyonight&hide_border=false&border_radius=5" width="500" />
+</div>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zerolinux-os&layout=compact&theme=radical)
+<div align="center">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td align="center">
+        <img src="https://nazdridoy-github-readme-stats.vercel.app/api?username=zerolinux-os&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=false" width="500" />
+      </td>
+      <td align="center">
+        <img src="https://nazdridoy-github-readme-stats.vercel.app/api/top-langs?username=zerolinux-os&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=tokyonight&hide_border=false" width="390" />
+      </td>
+    </tr>
+  </table>
+</div>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=zerolinux-os&theme=radical)
+<div align="center">
+  <img src="https://nazdridoy-github-profile-trophy.vercel.app/?username=zerolinux-os&theme=tokyonight&column=7&row=1&margin-w=15&margin-h=15&no-bg=false&no-frame=false" width="100%" />
+</div>
+
+<div align="center">
+  <img src="https://nazdridoy-github-readme-activity-graph.vercel.app/graph?username=zerolinux-os&radius=16&theme=tokyo-night&area=true&hide_border=false&height=300" width="100%" />
+</div>
+
+---
+
+<div align="center">
+
+## 💡 Dev Philosophy
+
+```
+"Zero bloat. Zero compromise. Built from scratch."
+```
+
+> I believe in understanding every layer of the stack —  
+> from the kernel up. If I can't build it, I don't deserve to use it.
 
 </div>
 
 ---
 
-## 🛠️ Tech Stack
-
 <div align="center">
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+## 🌐 Connect
+
+[![GitHub](https://img.shields.io/badge/GitHub-zerolinux--os-181717?style=for-the-badge&logo=github)](https://github.com/zerolinux-os)
 
 </div>
 
----
-
-## 🌐 Connect With Me
-
-<div align="center">
-
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](#)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=About.me&logoColor=white)](#)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
-
-</div>
-
----
-
-## 📈 Contribution Activity
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=zerolinux-os&theme=radical)
-
----
-
-## 💖 Support ZeroLinux
-
-If you find ZeroLinux useful, consider:
-- ⭐ Starring the repository
-- 🐛 Reporting issues
-- 🔧 Contributing code
-- 📢 Spreading the word
-
----
-
-<div align="center">
-  
-> *"In the world of Linux, every line of code is a step toward digital freedom."*
-
-**Thank you for visiting! Feel free to explore my repositories and join the ZeroLinux community.**
-
-![Visitor Count](https://komarev.com/ghpvc/?username=zerolinux-os&color=red&style=flat)
-
-</div>
+<!-- Footer -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0d1117&height=120&section=footer&animation=fadeIn" />
