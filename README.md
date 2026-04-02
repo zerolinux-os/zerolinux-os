@@ -137,6 +137,8 @@ ZeroLinux 0.1.0-dev Arch-based #1 SMP PREEMPT_DYNAMIC x86_64 GNU/Linux
 </div>
 
 ---
+<div align="center">
+  <img src="./zheader.svg" alt="avatar"/>
 
 <div align="center">
 
