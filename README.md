@@ -42,6 +42,14 @@
 
 ---
 
+### ⌨️ &nbsp; Git Cheatsheet
+
+<div align="center">
+  <img src="./terminal.svg" width="100%" alt="Git Commands Terminal"/>
+</div>
+
+---
+
 <div align="center">
 
 ## 🐧 About Me
